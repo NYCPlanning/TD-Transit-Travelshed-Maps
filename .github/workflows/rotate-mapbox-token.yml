@@ -37,10 +37,10 @@ jobs:
           mkdir -p _site/mapbox
 
           cp -R \
-            Transit-Connectivity-Job-Access-main \
-            Transit-Connectivity-Land-Area-main \
-            job-access-only-main \
-            land-area-only-main \
+            Access-to-Jobs-2026 \
+            Access-to-Jobs-Fare-Scenarios-2026 \
+            Access-to-Land-Area-2026 \
+            Access-to-Land-Area-Fare-Scenarios-2026 \
             _site/
 
           python3 - <<'PY'
