@@ -39,7 +39,7 @@ jobs:
           cp -R \
             Access-to-Jobs-2026 \
             Access-to-Jobs-Fare-Scenarios-2026 \
-            Access-to-Land-Area-2026 \
+            Land-Area-2026 \
             Access-to-Land-Area-Fare-Scenarios-2026 \
             _site/
 
