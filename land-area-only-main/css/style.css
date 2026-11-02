@@ -118,3 +118,19 @@ html, body {
 @media (max-width: 700px) {
   .floating-panel { width: calc(100% - 32px); right: 16px; top: 16px; }
 }
+
+/* ---- DCP Logo ---- */
+#dcp-logo {
+  position: fixed;
+  right: 10px;
+  bottom: 30px;          /* sits just above the Mapbox attribution */
+  width: 100px;
+  height: auto;
+  z-index: 10;           /* keeps it above both sides of the compare map */
+  pointer-events: none;  /* clicks pass through to the map */
+  filter:
+    drop-shadow(1px 0 0 #fff)
+    drop-shadow(-1px 0 0 #fff)
+    drop-shadow(0 1px 0 #fff)
+    drop-shadow(0 -1px 0 #fff);
+}
