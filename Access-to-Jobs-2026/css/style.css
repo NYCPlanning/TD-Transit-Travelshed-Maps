@@ -134,3 +134,7 @@ html, body {
     drop-shadow(0 1px 0 #fff)
     drop-shadow(0 -1px 0 #fff);
 }
+/* Bold the StoryMap link in the map's attribution bar */
+.mapboxgl-ctrl-attrib a[href*="arcg.is"] {
+  font-weight: 700;
+}
