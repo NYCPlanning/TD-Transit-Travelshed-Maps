@@ -35,7 +35,7 @@ const COLOR_SCHEMES = {
 // Link back to the StoryMap (shown in the map's attribution bar)
 const STORYMAP_LINK =
   '<a href="https://arcg.is/1SmW1y5" target="_blank" rel="noopener">' +
-  'StoryMap &amp; Methodology ↗</a>';
+  '<strong>StoryMap &amp; Methodology</strong> ↗</a>';
 
 function buildFillColorExpression(schemeKey) {
   const colors = COLOR_SCHEMES[schemeKey];
