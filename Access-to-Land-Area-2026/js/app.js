@@ -32,6 +32,11 @@ const COLOR_SCHEMES = {
   ]
 };
 
+// Link back to the StoryMap (shown in the map's attribution bar)
+const STORYMAP_LINK =
+  '<a href="https://arcg.is/1SmW1y5" target="_blank" rel="noopener">' +
+  'StoryMap &amp; Methodology ↗</a>';
+
 function buildFillColorExpression(schemeKey) {
   const colors = COLOR_SCHEMES[schemeKey];
   const matchPairs = [];
@@ -69,7 +74,8 @@ const map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/mapbox/light-v11',
   center: [-73.95, 40.70],
-  zoom: 10
+  zoom: 10,
+  customAttribution: STORYMAP_LINK
 });
 
 map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-left');
