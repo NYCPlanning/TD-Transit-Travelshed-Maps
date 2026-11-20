@@ -77,7 +77,6 @@ const map = new mapboxgl.Map({
   zoom: 10,
   customAttribution: STORYMAP_LINK
 });
-});
 
 map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-left');
 
